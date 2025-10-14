@@ -1,0 +1,621 @@
+{
+  "nav": {
+    "brand": "City Events",
+    "home": "Home",
+    "allEvents": "All Events",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover Amazing",
+    "titleSpan": "Local Events",
+    "subtitle": "Find the best concerts, festivals, workshops, and community gatherings happening in your city. Never miss out on the fun!",
+    "exploreEvents": "Explore Events",
+    "learnMore": "Learn More"
+  },
+  "featured": {
+    "title": "Featured Events of the Week",
+    "subtitle": "Don't miss these amazing upcoming events",
+    "viewDetails": "View Details",
+    "slider": {
+      "event1": {
+        "category": "Music",
+        "title": "Summer Music Festival 2024",
+        "description": "Join us for an unforgettable night of live music featuring top local and international artists.",
+        "date": "October 15, 2024",
+        "location": "Central Park Amphitheater",
+        "price": "$45 - $120"
+      },
+      "event2": {
+        "category": "Culture",
+        "title": "Modern Art Exhibition",
+        "description": "Explore contemporary artworks from emerging and established artists in our city.",
+        "date": "October 12-20, 2024",
+        "location": "City Art Gallery",
+        "price": "Free Entry"
+      },
+      "event3": {
+        "category": "Sports",
+        "title": "City Marathon 2024",
+        "description": "Challenge yourself in our annual city marathon with routes for all fitness levels.",
+        "date": "October 22, 2024",
+        "location": "City Center",
+        "price": "$25 - $50"
+      }
+    }
+  },
+  "categories": {
+    "title": "Browse by Category",
+    "subtitle": "Find events that match your interests",
+    "music": "Music",
+    "culture": "Culture",
+    "sports": "Sports",
+    "family": "Family",
+    "food": "Food",
+    "business": "Business",
+    "technology": "Technology",
+    "literature": "Literature",
+    "events": "Events"
+  },
+  "latest": {
+    "title": "Latest Events",
+    "subtitle": "Recently added events you might be interested in",
+    "viewAll": "View All Events",
+    "cards": {
+      "event1": {
+        "title": "Tech Innovation Conference",
+        "description": "Discover the latest trends in technology and innovation.",
+        "location": "Convention Center",
+        "time": "9:00 AM - 6:00 PM"
+      },
+      "event2": {
+        "title": "International Food Festival",
+        "description": "Taste cuisines from around the world in one place.",
+        "location": "City Square",
+        "time": "11:00 AM - 9:00 PM"
+      },
+      "event3": {
+        "title": "Author Book Reading",
+        "description": "Meet bestselling authors and discover new books.",
+        "location": "Public Library",
+        "time": "2:00 PM - 4:00 PM"
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Subscribe to our newsletter and never miss an exciting event in your city",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "features": {
+      "alerts": "Event Alerts",
+      "offers": "Exclusive Offers",
+      "digest": "Weekly Digest"
+    }
+  },
+  "footer": {
+    "description": "Your ultimate guide to discovering amazing local events. From concerts to workshops, we help you find the perfect events in your city.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "contactInfo": "Contact Info",
+    "address": "123 Event Street, City Center, CC 12345",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@cityevents.com",
+    "copyright": "2024 City Events Guide. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "events": {
+    "pageTitle": "All Events",
+    "pageSubtitle": "Discover amazing events happening in your city",
+    "search": "Search events...",
+    "allCategories": "All Categories",
+    "allDates": "All Dates",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "allLocations": "All Locations",
+    "sortBy": "Sort By",
+    "sortLabel": "Sort by:",
+    "sort": {
+      "date": "Date",
+      "name": "Name",
+      "price": "Price",
+      "popularity": "Popularity"
+    },
+    "allPrices": "All Prices",
+    "priceRanges": {
+      "0_25": "$0 - $25",
+      "25_50": "$25 - $50",
+      "50_100": "$50 - $100",
+      "100_plus": "$100+"
+    },
+    "gridView": "Grid View",
+    "listView": "List View",
+    "dateAsc": "Date (Earliest First)",
+    "dateDesc": "Date (Latest First)",
+    "priceAsc": "Price (Low to High)",
+    "priceDesc": "Price (High to Low)",
+    "resultsFound": "results found",
+    "showing": "Showing",
+    "of": "of",
+  "noResults": "We couldn't find any events matching your criteria. Try adjusting your filters or search terms.",
+  "noResultsTitle": "No Events Found",
+  "clearAllFilters": "Clear All Filters",
+    "free": "Free",
+    "freeEntry": "Free Entry",
+    "months": {
+      "Jan": "Jan",
+      "Feb": "Feb",
+      "Mar": "Mar",
+      "Apr": "Apr",
+      "May": "May",
+      "Jun": "Jun",
+      "Jul": "Jul",
+      "Aug": "Aug",
+      "Sep": "Sep",
+      "Oct": "Oct",
+      "Nov": "Nov",
+      "Dec": "Dec"
+    },
+    "addToFavorites": "Add to Favorites",
+    "filters": {
+      "advancedToggle": "Advanced Filters",
+      "location": {
+        "label": "Location",
+        "options": {
+          "downtown": "Downtown",
+          "uptown": "Uptown",
+          "suburbs": "Suburbs"
+        }
+      },
+      "duration": {
+        "label": "Duration",
+        "options": {
+          "all": "Any Duration",
+          "short": "1-2 hours",
+          "medium": "3-5 hours",
+          "long": "Full day"
+        }
+      },
+      "age": {
+        "label": "Age Group",
+        "options": {
+          "all": "All Ages",
+          "kids": "Kids (0-12)",
+          "teens": "Teens (13-17)",
+          "adults": "Adults (18+)"
+        }
+      },
+      "accessibility": {
+        "label": "Accessibility",
+        "options": {
+          "all": "No Preference",
+          "wheelchair": "Wheelchair Accessible",
+          "hearing": "Hearing Impaired Friendly",
+          "visual": "Visually Impaired Friendly"
+        }
+      }
+    },
+    "cards": {
+      "event1": {"title": "Summer Music Festival 2024", "description": "Join us for an unforgettable night of live music featuring top local and international artists.", "location": "Central Park Amphitheater", "time": "7:00 PM - 11:00 PM", "price": "$45 - $120"},
+      "event2": {"title": "Modern Art Exhibition", "description": "Explore contemporary artworks from emerging and established artists in our city.", "location": "City Art Gallery", "time": "10:00 AM - 6:00 PM", "price": "Free Entry"},
+      "event3": {"title": "City Marathon 2024", "description": "Challenge yourself in our annual city marathon with routes for all fitness levels.", "location": "City Center", "time": "6:00 AM - 12:00 PM", "price": "$25 - $50"},
+      "event4": {"title": "Tech Innovation Conference", "description": "Discover the latest trends in technology and innovation with industry leaders.", "location": "Convention Center", "time": "9:00 AM - 6:00 PM", "price": "$75"},
+      "event5": {"title": "International Food Festival", "description": "Taste cuisines from around the world in one amazing location.", "location": "City Square", "time": "11:00 AM - 9:00 PM", "price": "Free"},
+      "event6": {"title": "Author Book Reading", "description": "Meet bestselling authors and discover new books in this intimate reading session.", "location": "Public Library", "time": "2:00 PM - 4:00 PM", "price": "$15"}
+    }
+  },
+  "eventDetails": {
+    "pageTitle": "Event Details",
+    "eventInformation": "Event Information",
+    "dateTime": "Date & Time",
+    "location": "Location",
+    "price": "Price",
+    "category": "Category",
+    "organizer": "Organizer",
+    "website": "Website",
+    "visitWebsite": "Visit Website",
+    "addToWishlist": "Add to Wishlist",
+    "shareEvent": "Share Event",
+    "getTickets": "Get Tickets",
+    "eventDescription": "About This Event",
+    "hero": {
+      "category": "Music Festival",
+      "subtitle": "Join us for an unforgettable night of live music featuring top local and international artists in the heart of the city.",
+      "day": "Saturday",
+      "durationLabel": "4 hours",
+      "area": "Downtown Area",
+      "tiers": "Multiple tiers available"
+    },
+    "locationSection": "Location & Directions",
+    "viewOnGoogleMaps": "View on Google Maps",
+    "eventSchedule": "Event Schedule",
+    "ticketInformation": "Ticket Information",
+    "relatedEvents": "Similar Events",
+    "seeAllEvents": "See All Events",
+    "about": {
+      "p1": "Get ready for the most spectacular music festival of the year! The Summer Music Festival 2024 brings together an incredible lineup of artists from various genres, creating an unforgettable experience for music lovers of all ages.",
+      "p2": "This year's festival features over 20 artists performing across multiple stages, including headliners that will blow your mind. From indie rock to electronic dance music, from folk to hip-hop, we've curated a diverse lineup that celebrates the rich tapestry of contemporary music.",
+      "p3": "The Central Park Amphitheater provides the perfect backdrop for this musical celebration, with its natural acoustics and beautiful outdoor setting. Whether you're dancing under the stars or relaxing on the grass, this festival promises to be an experience you'll never forget.",
+      "expectTitle": "What to Expect:",
+      "list": {
+        "li1": "Live performances from 20+ renowned artists",
+        "li2": "Multiple stages with different music genres",
+        "li3": "Food trucks and local vendors",
+        "li4": "Interactive art installations",
+        "li5": "VIP areas with premium amenities",
+        "li6": "Professional sound and lighting systems"
+      }
+    },
+    "featuredArtists": "Featured Artists",
+    "artists": {
+      "electricWaves": {"title": "The Electric Waves", "genre": "Electronic / Headliner", "desc": "Known for their electrifying performances and chart-topping hits."},
+      "midnightEchoes": {"title": "Midnight Echoes", "genre": "Indie Rock", "desc": "Rising stars with a unique sound that blends classic and modern rock."},
+      "lunaDreamers": {"title": "Luna & The Dreamers", "genre": "Folk / Acoustic", "desc": "Soulful melodies and heartfelt lyrics that touch the soul."},
+      "bassRevolution": {"title": "Bass Revolution", "genre": "Hip-Hop / Rap", "desc": "High-energy performances with powerful beats and meaningful lyrics."}
+    },
+    "schedule": {
+      "gatesOpen": {"title": "Gates Open", "desc": "Festival grounds open, food vendors available"},
+      "openingAct": {"title": "Opening Act - Luna & The Dreamers", "desc": "Acoustic stage performance"},
+      "midnightEchoes": {"title": "Midnight Echoes", "desc": "Main stage rock performance"},
+      "bassRevolution": {"title": "Bass Revolution", "desc": "Hip-hop stage takeover"},
+      "headliner": {"title": "The Electric Waves - Headliner", "desc": "Main stage closing performance"}
+    },
+    "venueDetails": "Venue Details",
+    "parkingInfo": "Parking Information",
+    "parking": {
+      "list": {"li1": "On-site parking: $15", "li2": "Street parking available", "li3": "Public transit recommended"}
+    },
+    "accessibilityTitle": "Accessibility",
+    "accessibility": {
+      "list": {"li1": "Wheelchair accessible", "li2": "ADA compliant facilities", "li3": "Sign language interpreters available"}
+    },
+    "tickets": {
+      "generalAdmission": "General Admission",
+      "vipExperience": "VIP Experience",
+      "mostPopular": "Most Popular",
+      "features": {
+        "li1": "Access to all stages",
+        "li2": "General seating area",
+        "li3": "Food court access",
+        "li4": "Premium viewing area",
+        "li5": "Complimentary drinks",
+        "li6": "VIP restrooms",
+        "li7": "Meet & greet opportunity",
+        "li8": "Exclusive merchandise"
+      },
+      "nonRefundable": "Tickets are non-refundable. All sales final.",
+      "generalAdmissionOption": "General Admission - $45",
+      "vipExperienceOption": "VIP Experience - $120"
+    },
+    "purchaseTickets": "Purchase Tickets",
+    "eventOrganizer": "Event Organizer",
+    "organizerInfo": {
+      "description": "Professional event organizer with 10+ years of experience in music festivals.",
+      "ratingLabel": "Rating"
+    },
+    "contactOrganizer": "Contact Organizer",
+  "similarEvents": "Similar Events",
+    "viewOnMap": "View on Map",
+    "modal": {
+      "ticketType": "Ticket Type",
+      "selectTicketType": "Select ticket type",
+      "quantity": "Quantity",
+      "selectQuantity": "Select quantity",
+      "qty1": "1 Ticket",
+      "qty2": "2 Tickets",
+      "qty3": "3 Tickets",
+      "qty4": "4 Tickets",
+      "orderSummary": "Order Summary",
+      "subtotal": "Subtotal:",
+      "serviceFee": "Service Fee:",
+      "total": "Total:",
+      "proceed": "Proceed to Payment",
+      "processing": "Processing..."
+    },
+    "similar": {
+      "jazz": {"title": "Jazz in the Park", "date": "Oct 28, 2024", "price": "$25"},
+      "rock": {"title": "Rock the Night", "date": "Nov 5, 2024", "price": "$55"},
+      "classical": {"title": "Classical Evening", "date": "Nov 12, 2024", "price": "$40"}
+    },
+    "similarSection": "Similar Events",
+    "similarTitle": "Similar Events",
+    "similarEventsTitle": "Similar Events",
+    "similarEventsSection": "Similar Events",
+    "heroTitle": "Summer Music Festival 2024",
+    "addedToWishlist": "Added to Wishlist",
+    "shareTextPrefix": "Check out this amazing event:",
+    "notifications": {
+      "linkCopied": "Event link copied to clipboard!",
+      "unableToCopy": "Unable to copy link",
+      "redirectingTo": "Redirecting to {title}..."
+    },
+    "validation": {
+      "selectTicketType": "Please select a ticket type",
+      "selectQuantity": "Please select quantity",
+      "enterFirstName": "Please enter your first name",
+      "enterLastName": "Please enter your last name",
+      "enterEmail": "Please enter your email",
+      "validEmail": "Please enter a valid email",
+      "enterPhone": "Please enter your phone number"
+    },
+    "confirmation": {
+      "title": "Tickets Purchased Successfully!",
+      "event": "Event:",
+      "ticketType": "Ticket Type:",
+      "quantity": "Quantity:",
+      "name": "Name:",
+      "email": "Email:",
+      "note": "Confirmation details have been sent to your email address.",
+      "addToCalendar": "Add to Calendar"
+    }
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "Learn more about our mission and team",
+    "pageHero": {
+      "title": "About City Events Guide",
+      "subtitle": "Connecting communities through amazing local experiences",
+      "breadcrumb": "About"
+    },
+    "story": {
+      "title": "Our Story",
+      "lead": "City Events Guide was born from a simple idea: every community deserves to know about the amazing events happening right in their backyard.",
+      "paragraph1": "Founded in 2020, we started as a small team of event enthusiasts who were frustrated by the scattered information about local events. We believed there had to be a better way to discover concerts, festivals, workshops, and community gatherings.",
+      "paragraph2": "Today, we're proud to be the leading platform for local event discovery, helping thousands of people find their next favorite experience every month.",
+      "stats": {
+        "events": {
+          "count": "10,000+",
+          "label": "Events Listed"
+        },
+        "users": {
+          "count": "50,000+",
+          "label": "Happy Users"
+        },
+        "organizers": {
+          "count": "500+",
+          "label": "Event Organizers"
+        }
+      }
+    },
+    "mission": {
+      "title": "Our Mission & Values",
+      "subtitle": "What drives us every day"
+    },
+    "values": {
+      "community": {
+        "title": "Community First",
+        "description": "We believe in the power of community and strive to bring people together through shared experiences and local events."
+      },
+      "discovery": {
+        "title": "Easy Discovery",
+        "description": "Finding great events should be simple and enjoyable. We make it easy to discover experiences that match your interests."
+      },
+      "passion": {
+        "title": "Passion Driven",
+        "description": "Our team is passionate about events and experiences. We're not just building a platform; we're creating connections."
+      },
+      "trust": {
+        "title": "Trust & Safety",
+        "description": "We verify event organizers and provide secure ticketing to ensure safe and reliable experiences for everyone."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously improve our platform with new features and technologies to enhance your event discovery experience."
+      },
+      "inclusivity": {
+        "title": "Inclusivity",
+        "description": "We celebrate diversity and work to make events accessible to everyone, regardless of background or ability."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The passionate people behind City Events Guide",
+      "members": {
+        "alex": {
+          "name": "Alex Johnson",
+          "role": "Founder & CEO",
+          "bio": "Passionate about connecting communities through events. 10+ years in event management."
+        },
+        "sarah": {
+          "name": "Sarah Chen",
+          "role": "Head of Product",
+          "bio": "UX designer turned product manager. Focused on creating intuitive user experiences."
+        },
+        "michael": {
+          "name": "Michael Rodriguez",
+          "role": "Lead Developer",
+          "bio": "Full-stack developer with expertise in scalable web applications and mobile development."
+        },
+        "emily": {
+          "name": "Emily Davis",
+          "role": "Marketing Director",
+          "bio": "Creative marketer specializing in community engagement and digital marketing strategies."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Discover Amazing Events?",
+      "subtitle": "Join thousands of event-goers who trust City Events Guide to find their next great experience.",
+      "buttons": {
+        "browse": "Browse Events",
+        "contact": "Get in Touch"
+      },
+      "features": {
+        "discovery": "Easy Event Discovery",
+        "ticketing": "Secure Ticketing",
+        "community": "Community Driven"
+      }
+    },
+    "links": {
+      "aboutUs": "About Us"
+    },
+    "ourStory": "Our Story",
+    "ourMission": "Our Mission",
+    "ourValues": "Our Values"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Get in touch with our team",
+    "pageHero": {
+      "title": "Contact Us",
+      "subtitle": "We'd love to hear from you. Get in touch with our team!",
+      "breadcrumb": "Contact"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Have a question, suggestion, or want to partner with us? We're here to help!",
+      "firstNameLabel": "First Name *",
+      "lastNameLabel": "Last Name *",
+      "emailLabel": "Email Address *",
+      "phoneLabel": "Phone Number",
+      "subjectLabel": "Subject *",
+      "subjectPlaceholder": "Choose a subject",
+      "subjectOptions": {
+        "general": "General Inquiry",
+        "eventListing": "List My Event",
+        "partnership": "Partnership Opportunity",
+        "technical": "Technical Support",
+        "feedback": "Feedback & Suggestions",
+        "press": "Press & Media",
+        "other": "Other"
+      },
+      "messageLabel": "Message *",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "messageHelp": "Minimum 10 characters required.",
+      "newsletterLabel": "Subscribe to our newsletter for event updates and announcements",
+      "privacy": {
+        "agreePrefix": "I agree to the",
+        "and": "and"
+      },
+      "send": "Send Message",
+      "reset": "Reset Form"
+    },
+    "validation": {
+      "firstName": "Please provide your first name.",
+      "lastName": "Please provide your last name.",
+      "email": "Please provide a valid email address.",
+      "subject": "Please select a subject.",
+      "message": "Please provide your message.",
+      "privacy": "You must agree to our privacy policy."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help and answer any questions you might have.",
+      "office": {
+        "title": "Visit Our Office",
+        "addressLine1": "123 Event Street",
+        "addressLine2": "City Center, CC 12345",
+        "country": "United States"
+      },
+      "phone": {
+        "title": "Call Us",
+        "number": "+1 (555) 123-4567",
+        "weekdays": "Mon - Fri: 9:00 AM - 6:00 PM",
+        "weekend": "Weekend: 10:00 AM - 4:00 PM"
+      },
+      "email": {
+        "title": "Email Us",
+        "primary": "info@cityevents.com",
+        "support": "support@cityevents.com",
+        "partnerships": "partnerships@cityevents.com"
+      },
+      "chat": {
+        "title": "Live Chat",
+        "available": "Available 24/7 for immediate assistance",
+        "hint": "Click the chat icon in the bottom right"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions",
+      "items": {
+        "q1": {
+          "question": "How do I list my event on City Events Guide?",
+          "answer": "Listing your event is easy! Simply contact us through the form above with \"List My Event\" as the subject, or email us directly at partnerships@cityevents.com. We'll guide you through our simple submission process and help you reach more attendees."
+        },
+        "q2": {
+          "question": "Is there a fee to list events?",
+          "answer": "We offer both free and premium listing options. Basic listings are completely free and include essential event information. Premium listings offer enhanced visibility, featured placement, and additional promotional tools for a small fee."
+        },
+        "q3": {
+          "question": "How do I purchase tickets through your platform?",
+          "answer": "Purchasing tickets is secure and straightforward. Click on any event to view details, then select \"Get Tickets\" or \"Purchase Tickets.\" You'll be guided through our secure checkout process. We accept all major credit cards and PayPal."
+        },
+        "q4": {
+          "question": "Can I get refunds for purchased tickets?",
+          "answer": "Refund policies vary by event organizer. Most events offer refunds if cancelled by the organizer. For event-specific refund policies, check the event details page or contact the organizer directly. We're happy to help facilitate communication if needed."
+        },
+        "q5": {
+          "question": "How do I stay updated on new events?",
+          "answer": "Subscribe to our newsletter for weekly event updates, follow us on social media, or create an account to set up personalized event alerts based on your interests and location. You can also bookmark events you're interested in."
+        }
+      }
+    },
+    "map": {
+      "title": "Find Our Office",
+      "subtitle": "Visit us in person or find us on the map",
+      "cardTitle": "City Events Guide Office",
+      "address": "123 Event Street, City Center",
+      "getDirections": "Get Directions"
+    },
+    "getInTouch": "Get In Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "sendMessage": "Send Message",
+    "contactInfo": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "followUs": "Follow Us"
+  },
+  "wishlist": {
+    "pageTitle": "My Wishlist",
+    "pageSubtitle": "Events you've saved for later",
+    "breadcrumb": "Wishlist",
+    "header": {
+      "title": "Your Saved Events",
+      "countPrefix": "You have",
+      "countSuffix": "events in your wishlist"
+    },
+    "actions": {
+      "sortByDate": "Sort by Date",
+      "clearAll": "Clear All",
+      "share": "Share Wishlist"
+    },
+    "emptyTitle": "Your Wishlist is Empty",
+    "empty": "Your wishlist is empty",
+    "emptyDescription": "Start adding events to your wishlist to keep track of your favorite events.",
+    "browseEvents": "Browse Events",
+    "removeFromWishlist": "Remove from Wishlist",
+    "insights": {
+      "upcomingTitle": "Upcoming Events",
+      "upcomingMeta": "events this month",
+      "favoriteTitle": "Favorite Category",
+      "favoriteMeta": "most saved category",
+      "recentTitle": "Recently Added",
+      "recentMeta": "last addition"
+    },
+    "related": {
+      "title": "You Might Also Like",
+      "subtitle": "Based on your wishlist preferences"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "success": "Success!",
+    "backToTop": "Back to Top",
+    "readMore": "Read More",
+    "seeMore": "See More",
+    "changeLanguage": "Change Language",
+    "toggleDarkMode": "Toggle Dark Mode",
+    "cancel": "Cancel"
+  }
+}

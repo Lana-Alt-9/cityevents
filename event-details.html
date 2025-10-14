@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="events.cards.event1.title">Summer Music Festival 2024 - City Events Guide</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/event-details.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-calendar-star me-2"></i>
+                <span class="brand-text" data-i18n="nav.brand">City Events</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html" data-i18n="nav.allEvents">All Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-i18n="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wishlist.html">
+                            <i class="fas fa-heart me-1"></i>
+                            <span class="wishlist-count">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown lang-switcher">
+                            <button class="lang-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-i18n-title="common.changeLanguage" title="Change Language">
+                                <img src="https://flagcdn.com/w40/us.png" srcset="https://flagcdn.com/w80/us.png 2x" alt="USA Flag" class="current-flag" width="24">
+                                <span class="current-lang-text">English</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="languageDropdown">
+                                <li>
+                                    <a class="dropdown-item lang-option active" href="#" data-lang="en">
+                                        <img src="https://flagcdn.com/w40/us.png" srcset="https://flagcdn.com/w80/us.png 2x" alt="USA Flag" class="flag-icon" width="24">
+                                        <span class="lang-name">English</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item lang-option" href="#" data-lang="ar">
+                                        <img src="https://flagcdn.com/w40/sy.png" srcset="https://flagcdn.com/w80/sy.png 2x" alt="Syria Flag" class="flag-icon" width="24">
+                                        <span class="lang-name">العربية</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Event Hero Section -->
+    <section class="event-hero">
+        <div class="event-hero-image">
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Summer Music Festival 2024" class="img-fluid">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" data-aos="fade-down">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-i18n="nav.home">Home</a></li>
+                            <li class="breadcrumb-item"><a href="events.html" data-i18n="categories.events">Events</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" data-i18n="events.cards.event1.title">Summer Music Festival 2024</li>
+                        </ol>
+                    </nav>
+                    
+                    <div class="event-hero-content" data-aos="fade-up" data-aos-delay="200">
+                        <span class="event-category badge bg-primary mb-3" data-i18n="eventDetails.hero.category">Music Festival</span>
+                        <h1 class="event-hero-title" data-i18n="events.cards.event1.title">Summer Music Festival 2024</h1>
+                        <p class="event-hero-subtitle" data-i18n="eventDetails.hero.subtitle">Join us for an unforgettable night of live music featuring top local and international artists in the heart of the city.</p>
+                        
+                        <div class="event-quick-info">
+                            <div class="quick-info-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <div>
+                                    <strong data-i18n="featured.slider.event1.date">October 15, 2024</strong>
+                                    <span data-i18n="eventDetails.hero.day">Saturday</span>
+                                </div>
+                            </div>
+                            <div class="quick-info-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong data-i18n="events.cards.event1.time">7:00 PM - 11:00 PM</strong>
+                                    <span data-i18n="eventDetails.hero.durationLabel">4 hours</span>
+                                </div>
+                            </div>
+                            <div class="quick-info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong data-i18n="events.cards.event1.location">Central Park Amphitheater</strong>
+                                    <span data-i18n="eventDetails.hero.area">Downtown Area</span>
+                                </div>
+                            </div>
+                            <div class="quick-info-item">
+                                <i class="fas fa-ticket-alt"></i>
+                                <div>
+                                    <strong data-i18n="events.cards.event1.price">$45 - $120</strong>
+                                    <span data-i18n="eventDetails.hero.tiers">Multiple tiers available</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-actions">
+                            <button class="btn btn-primary btn-lg me-3" data-bs-toggle="modal" data-bs-target="#ticketModal">
+                                <i class="fas fa-ticket-alt me-2"></i><span data-i18n="eventDetails.getTickets">Get Tickets</span>
+                            </button>
+                            <button class="btn btn-outline-light btn-lg me-3" id="wishlistBtn" onclick="toggleWishlist()">
+                                <i class="far fa-heart me-2"></i><span data-i18n="eventDetails.addToWishlist">Add to Wishlist</span>
+                            </button>
+                            <button class="btn btn-outline-light btn-lg" id="shareBtn">
+                                <i class="fas fa-share-alt me-2"></i><span data-i18n="eventDetails.shareEvent">Share Event</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="event-details-section py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Event Description -->
+                    <div class="detail-card" data-aos="fade-up">
+                        <h2 class="detail-title" data-i18n="eventDetails.eventDescription">About This Event</h2>
+                        <div class="detail-content">
+                            <p data-i18n="eventDetails.about.p1">Get ready for the most spectacular music festival of the year! The Summer Music Festival 2024 brings together an incredible lineup of artists from various genres, creating an unforgettable experience for music lovers of all ages.</p>
+                            
+                            <p data-i18n="eventDetails.about.p2">This year's festival features over 20 artists performing across multiple stages, including headliners that will blow your mind. From indie rock to electronic dance music, from folk to hip-hop, we've curated a diverse lineup that celebrates the rich tapestry of contemporary music.</p>
+                            
+                            <h4 data-i18n="eventDetails.about.expectTitle">What to Expect:</h4>
+                            <ul>
+                                <li data-i18n="eventDetails.about.list.li1">Live performances from 20+ renowned artists</li>
+                                <li data-i18n="eventDetails.about.list.li2">Multiple stages with different music genres</li>
+                                <li data-i18n="eventDetails.about.list.li3">Food trucks and local vendors</li>
+                                <li data-i18n="eventDetails.about.list.li4">Interactive art installations</li>
+                                <li data-i18n="eventDetails.about.list.li5">VIP areas with premium amenities</li>
+                                <li data-i18n="eventDetails.about.list.li6">Professional sound and lighting systems</li>
+                            </ul>
+                            
+                            <p data-i18n="eventDetails.about.p3">The Central Park Amphitheater provides the perfect backdrop for this musical celebration, with its natural acoustics and beautiful outdoor setting. Whether you're dancing under the stars or relaxing on the grass, this festival promises to be an experience you'll never forget.</p>
+                        </div>
+                    </div>
+
+                    <!-- Lineup -->
+                    <div class="detail-card" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="detail-title" data-i18n="eventDetails.featuredArtists">Featured Artists</h2>
+                        <div class="lineup-grid">
+                            <div class="artist-card">
+                                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="The Electric Waves" class="artist-image">
+                                <div class="artist-info">
+                                    <h5 data-i18n="eventDetails.artists.electricWaves.title">The Electric Waves</h5>
+                                    <span class="artist-genre" data-i18n="eventDetails.artists.electricWaves.genre">Electronic / Headliner</span>
+                                    <p data-i18n="eventDetails.artists.electricWaves.desc">Known for their electrifying performances and chart-topping hits.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="artist-card">
+                                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Midnight Echoes" class="artist-image">
+                                <div class="artist-info">
+                                    <h5 data-i18n="eventDetails.artists.midnightEchoes.title">Midnight Echoes</h5>
+                                    <span class="artist-genre" data-i18n="eventDetails.artists.midnightEchoes.genre">Indie Rock</span>
+                                    <p data-i18n="eventDetails.artists.midnightEchoes.desc">Rising stars with a unique sound that blends classic and modern rock.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="artist-card">
+                                <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Luna & The Dreamers" class="artist-image">
+                                <div class="artist-info">
+                                    <h5 data-i18n="eventDetails.artists.lunaDreamers.title">Luna & The Dreamers</h5>
+                                    <span class="artist-genre" data-i18n="eventDetails.artists.lunaDreamers.genre">Folk / Acoustic</span>
+                                    <p data-i18n="eventDetails.artists.lunaDreamers.desc">Soulful melodies and heartfelt lyrics that touch the soul.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="artist-card">
+                                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Bass Revolution" class="artist-image">
+                                <div class="artist-info">
+                                    <h5 data-i18n="eventDetails.artists.bassRevolution.title">Bass Revolution</h5>
+                                    <span class="artist-genre" data-i18n="eventDetails.artists.bassRevolution.genre">Hip-Hop / Rap</span>
+                                    <p data-i18n="eventDetails.artists.bassRevolution.desc">High-energy performances with powerful beats and meaningful lyrics.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Schedule -->
+                    <div class="detail-card" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="detail-title" data-i18n="eventDetails.eventSchedule">Event Schedule</h2>
+                        <div class="schedule-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-time">6:00 PM</div>
+                                <div class="timeline-content">
+                                    <h5 data-i18n="eventDetails.schedule.gatesOpen.title">Gates Open</h5>
+                                    <p data-i18n="eventDetails.schedule.gatesOpen.desc">Festival grounds open, food vendors available</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-time">7:00 PM</div>
+                                <div class="timeline-content">
+                                    <h5 data-i18n="eventDetails.schedule.openingAct.title">Opening Act - Luna & The Dreamers</h5>
+                                    <p data-i18n="eventDetails.schedule.openingAct.desc">Acoustic stage performance</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-time">8:00 PM</div>
+                                <div class="timeline-content">
+                                    <h5 data-i18n="eventDetails.schedule.midnightEchoes.title">Midnight Echoes</h5>
+                                    <p data-i18n="eventDetails.schedule.midnightEchoes.desc">Main stage rock performance</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-time">9:15 PM</div>
+                                <div class="timeline-content">
+                                    <h5 data-i18n="eventDetails.schedule.bassRevolution.title">Bass Revolution</h5>
+                                    <p data-i18n="eventDetails.schedule.bassRevolution.desc">Hip-hop stage takeover</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-time">10:30 PM</div>
+                                <div class="timeline-content">
+                                    <h5 data-i18n="eventDetails.schedule.headliner.title">The Electric Waves - Headliner</h5>
+                                    <p data-i18n="eventDetails.schedule.headliner.desc">Main stage closing performance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location & Directions -->
+                    <div class="detail-card" data-aos="fade-up" data-aos-delay="300">
+                        <h2 class="detail-title" data-i18n="eventDetails.locationSection">Location & Directions</h2>
+                        <div class="location-info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5 data-i18n="eventDetails.venueDetails">Venue Details</h5>
+                                    <div class="venue-info">
+                                        <p><strong>Central Park Amphitheater</strong></p>
+                                        <p>123 Park Avenue<br>Downtown, City Center<br>CC 12345</p>
+                                        
+                                        <h6 class="mt-4" data-i18n="eventDetails.parkingInfo">Parking Information</h6>
+                                        <ul>
+                                            <li data-i18n="eventDetails.parking.list.li1">On-site parking: $15</li>
+                                            <li data-i18n="eventDetails.parking.list.li2">Street parking available</li>
+                                            <li data-i18n="eventDetails.parking.list.li3">Public transit recommended</li>
+                                        </ul>
+                                        
+                                        <h6 class="mt-3" data-i18n="eventDetails.accessibilityTitle">Accessibility</h6>
+                                        <ul>
+                                            <li data-i18n="eventDetails.accessibility.list.li1">Wheelchair accessible</li>
+                                            <li data-i18n="eventDetails.accessibility.list.li2">ADA compliant facilities</li>
+                                            <li data-i18n="eventDetails.accessibility.list.li3">Sign language interpreters available</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="map-placeholder">
+                                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Map" class="img-fluid rounded">
+                                        <div class="map-overlay">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span data-i18n="eventDetails.viewOnGoogleMaps">View on Google Maps</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Ticket Information -->
+                    <div class="sidebar-card" data-aos="fade-left">
+                        <h3 class="sidebar-title" data-i18n="eventDetails.ticketInformation">Ticket Information</h3>
+                        <div class="ticket-options">
+                            <div class="ticket-option">
+                                <div class="ticket-type">
+                                    <h5 data-i18n="eventDetails.tickets.generalAdmission">General Admission</h5>
+                                    <span class="ticket-price">$45</span>
+                                </div>
+                                <ul class="ticket-features">
+                                    <li data-i18n="eventDetails.tickets.features.li1">Access to all stages</li>
+                                    <li data-i18n="eventDetails.tickets.features.li2">General seating area</li>
+                                    <li data-i18n="eventDetails.tickets.features.li3">Food court access</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="ticket-option featured">
+                                <div class="ticket-type">
+                                    <h5 data-i18n="eventDetails.tickets.vipExperience">VIP Experience</h5>
+                                    <span class="ticket-price">$120</span>
+                                    <span class="ticket-badge" data-i18n="eventDetails.tickets.mostPopular">Most Popular</span>
+                                </div>
+                                <ul class="ticket-features">
+                                    <li data-i18n="eventDetails.tickets.features.li4">Premium viewing area</li>
+                                    <li data-i18n="eventDetails.tickets.features.li5">Complimentary drinks</li>
+                                    <li data-i18n="eventDetails.tickets.features.li6">VIP restrooms</li>
+                                    <li data-i18n="eventDetails.tickets.features.li7">Meet & greet opportunity</li>
+                                    <li data-i18n="eventDetails.tickets.features.li8">Exclusive merchandise</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary btn-lg w-100 mt-3" data-bs-toggle="modal" data-bs-target="#ticketModal">
+                            <i class="fas fa-ticket-alt me-2"></i><span data-i18n="eventDetails.purchaseTickets">Purchase Tickets</span>
+                        </button>
+                        
+                        <div class="ticket-info mt-3">
+                            <small class="text-muted">
+                                <i class="fas fa-info-circle me-1"></i>
+                                <span data-i18n="eventDetails.tickets.nonRefundable">Tickets are non-refundable. All sales final.</span>
+                            </small>
+                        </div>
+                    </div>
+
+                    <!-- Event Organizer -->
+                    <div class="sidebar-card" data-aos="fade-left" data-aos-delay="100">
+                        <h3 class="sidebar-title" data-i18n="eventDetails.eventOrganizer">Event Organizer</h3>
+                        <div class="organizer-info">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="City Music Events" class="organizer-avatar">
+                            <div class="organizer-details">
+                                <h5>City Music Events</h5>
+                                <p data-i18n="eventDetails.organizer.description">Professional event organizer with 10+ years of experience in music festivals.</p>
+                                <div class="organizer-stats">
+                                    <span><i class="fas fa-star"></i> 4.8 <span data-i18n="eventDetails.organizer.ratingLabel">Rating</span></span>
+                                    <span><i class="fas fa-calendar"></i> 50+ <span data-i18n="categories.events">Events</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-3">
+                            <i class="fas fa-envelope me-2"></i><span data-i18n="eventDetails.contactOrganizer">Contact Organizer</span>
+                        </button>
+                    </div>
+
+                    <!-- Similar Events -->
+                    <div class="sidebar-card" data-aos="fade-left" data-aos-delay="200">
+                        <h3 class="sidebar-title" data-i18n="eventDetails.relatedEvents">Similar Events</h3>
+                        <div class="similar-events">
+                            <div class="similar-event">
+                                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Tech Conference" class="similar-event-image">
+                                <div class="similar-event-info">
+                                    <h6 data-i18n="eventDetails.similar.jazz.title">Jazz in the Park</h6>
+                                    <span class="similar-event-date" data-i18n="eventDetails.similar.jazz.date">Oct 28, 2024</span>
+                                    <span class="similar-event-price" data-i18n="eventDetails.similar.jazz.price">$25</span>
+                                </div>
+                            </div>
+                            
+                            <div class="similar-event">
+                                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Rock Concert" class="similar-event-image">
+                                <div class="similar-event-info">
+                                    <h6 data-i18n="eventDetails.similar.rock.title">Rock the Night</h6>
+                                    <span class="similar-event-date" data-i18n="eventDetails.similar.rock.date">Nov 5, 2024</span>
+                                    <span class="similar-event-price" data-i18n="eventDetails.similar.rock.price">$55</span>
+                                </div>
+                            </div>
+                            
+                            <div class="similar-event">
+                                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Classical Music" class="similar-event-image">
+                                <div class="similar-event-info">
+                                    <h6 data-i18n="eventDetails.similar.classical.title">Classical Evening</h6>
+                                    <span class="similar-event-date" data-i18n="eventDetails.similar.classical.date">Nov 12, 2024</span>
+                                    <span class="similar-event-price" data-i18n="eventDetails.similar.classical.price">$40</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ticket Purchase Modal -->
+    <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ticketModalLabel" data-i18n="eventDetails.purchaseTickets">Purchase Tickets</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="ticketForm">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label for="ticketType" class="form-label" data-i18n="eventDetails.modal.ticketType">Ticket Type</label>
+                                <select class="form-select" id="ticketType" required>
+                                    <option value="" data-i18n="eventDetails.modal.selectTicketType">Select ticket type</option>
+                                    <option value="general" data-price="45" data-i18n="eventDetails.tickets.generalAdmissionOption">General Admission - $45</option>
+                                    <option value="vip" data-price="120" data-i18n="eventDetails.tickets.vipExperienceOption">VIP Experience - $120</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ticketQuantity" class="form-label" data-i18n="eventDetails.modal.quantity">Quantity</label>
+                                <select class="form-select" id="ticketQuantity" required>
+                                    <option value="" data-i18n="eventDetails.modal.selectQuantity">Select quantity</option>
+                                    <option value="1" data-i18n="eventDetails.modal.qty1">1 Ticket</option>
+                                    <option value="2" data-i18n="eventDetails.modal.qty2">2 Tickets</option>
+                                    <option value="3" data-i18n="eventDetails.modal.qty3">3 Tickets</option>
+                                    <option value="4" data-i18n="eventDetails.modal.qty4">4 Tickets</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div class="ticket-summary">
+                                    <h6 data-i18n="eventDetails.modal.orderSummary">Order Summary</h6>
+                                    <div class="summary-line">
+                                        <span data-i18n="eventDetails.modal.subtotal">Subtotal:</span>
+                                        <span id="subtotal">$0.00</span>
+                                    </div>
+                                    <div class="summary-line">
+                                        <span data-i18n="eventDetails.modal.serviceFee">Service Fee:</span>
+                                        <span id="serviceFee">$0.00</span>
+                                    </div>
+                                    <div class="summary-line total">
+                                        <span><strong data-i18n="eventDetails.modal.total">Total:</strong></span>
+                                        <span id="total"><strong>$0.00</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label" data-i18n="contact.fullName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label" data-i18n="eventDetails.modal.lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label" data-i18n="contact.email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="phone" class="form-label" data-i18n="eventDetails.modal.phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-i18n="common.cancel">Cancel</button>
+                    <button type="submit" form="ticketForm" class="btn btn-primary">
+                        <i class="fas fa-credit-card me-2"></i><span data-i18n="eventDetails.modal.proceed">Proceed to Payment</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <i class="fas fa-calendar-star me-2"></i>
+                            <span data-i18n="nav.brand">City Events</span>
+                        </a>
+                        <p class="footer-description">Your ultimate guide to discovering amazing local events. From concerts to workshops, we help you find the perfect events in your city.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5 class="footer-title" data-i18n="footer.quickLinks">Quick Links</h5>
+                        <ul class="footer-menu">
+                            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                            <li><a href="events.html" data-i18n="nav.allEvents">All Events</a></li>
+                            <li><a href="about.html" data-i18n="about.pageTitle">About Us</a></li>
+                            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5 class="footer-title" data-i18n="footer.categories">Categories</h5>
+                        <ul class="footer-menu">
+                            <li><a href="events.html?category=music" data-i18n="categories.music">Music</a></li>
+                            <li><a href="events.html?category=culture" data-i18n="categories.culture">Culture</a></li>
+                            <li><a href="events.html?category=sports" data-i18n="categories.sports">Sports</a></li>
+                            <li><a href="events.html?category=family" data-i18n="categories.family">Family</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-contact">
+                        <h5 class="footer-title" data-i18n="footer.contactInfo">Contact Info</h5>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="footer.address">123 Event Street, City Center, CC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span data-i18n="footer.phone">+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span data-i18n="footer.email">info@cityevents.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright" data-i18n="footer.copyright">&copy; 2024 City Events Guide. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-bottom-links">
+                            <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                            <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                            <a href="#" data-i18n="footer.cookies">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- i18n JS -->
+    <script src="js/i18n.js"></script>
+    <!-- Auto-translate helper -->
+    <script src="js/auto-translate.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/event-details.js"></script>
+</body>
+</html>
